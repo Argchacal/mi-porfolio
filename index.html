@@ -5,24 +5,82 @@
     <link rel="stylesheet" href="css/stylo.css">
 </head>
 <body>
-    <h1>Marcelo Eduardo Ayala</h1>
-    <p>Desarrollador Backend con Python y algunas librerias, conocimientos de sql y actualmente realizando curso de Fullstack Python, Administracion de bases de datos y Programacion
-        de videos juegos en unity.</p>
-    <h2> Experiencia</h2>
-    <div class="trabajos">
-        <p>On Demand Customer Support. Directly- Enero 2019 - Actualmente.</p>
-        <details>
-            <summary>trabajo realizando</summary>
+    <!--Menu de encabezado-->
+    <header>
+        <div class="logo">
+            <a href="#">Marcelo</a>
+        </div>
+        <nav>
             <ul>
-                <li>Investigué y gestioné números de repuestos para satisfacer las necesidades de los usuarios, </li>
+                <li><a href="#" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#" onclick="seleccionar()">CONOCIMIENTO</a></li>
+                <li><a href="#" onclick="seleccionar()">CONTACTAME</a></li>
             </ul>
-        </details>
-        <ul>
-            <li>Chófer de transporte de personal. UBER.- Enero 2019 - Actualmente.</li>
-            <li>Operario. Automat Argentina.- Enero 2007 - Octubre 2018.</li>
-            <li>Dueño principal. Heladeria Hudson.- Enero 2009 - diciembre 2009 </li>
-            <li>Operario. Guantes Kraftex </li>
-        </ul>
+        </nav>
+        <Div class=" nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </Div>
+    </header>
+    <!--seccion de inicio-->
+    <section id="inicio" class="inicio">
+        <div class="banner">
+            <div class="contenedor_imagen">
+                <img src="img/Marcelo Eduardo Ayala logo 2.png" alt="">
+            </div>
+            <h1>Marcelo Eduardo Ayala</h1>
+            <h2>Programador Python y SQL</h2>
+            <ol>
+                <li> <a href="https://www.linkedin.com/in/marcelo-ayala-eduardo/" target="_blank" > linkedin<i class=""></i></a></li>
+                <li> <a href="https://github.com/Argchacal" target="_blank"> github<i class=""></i></a></li>
+            </ol>
+        </div>
+    </section>
+    <!--seccion de dobre mi-->
+    <section>
+        <h2>Sobre Mi</h2>
+        <p><span> Soy Marcelo Eduardo Ayala.</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero deleniti eveniet provident ex explicabo eaque nulla quia nostrum aspernatur, soluta repellendus reiciendis quod eligendi temporibus distinctio, repellat consectetur maiores voluptatum.
+        Dolor nesciunt officiis debitis dignissimos consequuntur, quibusdam repudiandae voluptate architecto quisquam! Corrupti doloribus cupiditate voluptatum dolores! Assumenda voluptates facere eligendi suscipit, cum, incidunt, omnis optio ipsam ipsa mollitia aut possimus!
+        Totam provident nihil accusamus nostrum tempore maiores architecto nemo alias suscipit fugit! Et corporis iure consequuntur ratione sunt, nulla tempore aspernatur velit, aliquam nemo aut aperiam labore, voluptatibus itaque voluptates.
+        Cumque, tempora est. Voluptatum suscipit mollitia molestiae sed quibusdam praesentium obcaecati, ab similique qui ipsa voluptatibus incidunt voluptatem vero eos, totam et error fuga quos hic aliquid. Blanditiis, obcaecati consequatur.
+        Consequuntur nam necessitatibus eius fugiat, architecto provident eligendi tempora. Nam ipsam atque minus, natus expedita animi voluptate quos numquam laborum unde molestiae nesciunt vel earum, veritatis maiores enim, deserunt quia!
+        </p>
+    </section>
+    <div class="fila">
+        <!--datos personales-->
+        <div>
+            <H3>Datos Personales</H3>
+            <ul>
+                <li><strong>Cumpleaños</strong> 02-08-1983</li>
+                <li><strong>Cumpleaños</strong> 02-08-1983</li>
+                <li><strong>Cumpleaños</strong> 02-08-1983</li>
+            </ul>
+        </div>
     </div>
+    <!--habilidades-->
+    <section class="habilidades" id="habilidades">
+        <div class="fila">
+            <h2>habilidades</h2>
+            <div class="columna">
+                <h3>Habilidades Tecnicas</h3>
+                <ul>
+                    <li><span>Python</span></li>
+                    <li><span>Sql</span></li>
+                    <li><span>Python</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fila2">
+            <div class="columna2">
+                <h3>Habilidades Blanda</h3>
+                <ul>
+                    <li><span>#</span></li>
+                    <li><span>#</span></li>
+                    <li><span>#</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
